@@ -6,6 +6,7 @@ import "./Login.css";
 import { useDispatch } from 'react-redux';
 
 function Login() {
+    //Login component
     const dispatch=useDispatch();
     const history=useHistory();
     const [email,setEmail] =useState('');
